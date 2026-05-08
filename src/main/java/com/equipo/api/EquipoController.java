@@ -19,19 +19,23 @@ public class EquipoController {
     // ZONA DE TRABAJO DEL EQUIPO
     // ————————————————————————————————————————
 
-    @GetMapping("/Maria Stefany Izquierdo Palacios")
-    public String saludoMaria() {
+    @GetMapping("/stefany")
+    public String saludoStefany() {
         return "Hola, soy Stefany y este es mi endpoint.";
     }
 
-    @GetMapping("/Yareth")
+    @GetMapping("/yareth")
     public String saludoYareth() {
         return "Hola, soy Yareth y este es mi endpoint.";
     }
 
-    @GetMapping("/Esteban")
+    @GetMapping("/Marko")
+    public String saludo() {
+        return "Hola, soy Marko Arcila y este es mi endpoint.";
+    }
+
+    @GetMapping("/esteban")
     public String saludoEsteban() {
         return "Hola, soy Esteban y este es mi endpoint.";
     }
-
 }
