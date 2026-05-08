@@ -15,10 +15,23 @@ public class EquipoController {
         return List.of("Equipo listo. Cada integrante agrega su endpoint abajo.");
     }
 
-    // ─────────────────────────────────────────────────────────────────
+    // ————————————————————————————————————————
     // ZONA DE TRABAJO DEL EQUIPO
-    // Cada integrante del equipo agrega su método en esta sección.
-    // Rama: feature/tu-nombre
-    // ─────────────────────────────────────────────────────────────────
+    // ————————————————————————————————————————
+
+    @GetMapping("/Maria Stefany Izquierdo Palacios")
+    public String saludoMaria() {
+        return "Hola, soy Stefany y este es mi endpoint.";
+    }
+
+    @GetMapping("/Yareth")
+    public String saludoYareth() {
+        return "Hola, soy Yareth y este es mi endpoint.";
+    }
+
+    @GetMapping("/Esteban")
+    public String saludoEsteban() {
+        return "Hola, soy Esteban y este es mi endpoint.";
+    }
 
 }
