@@ -21,4 +21,9 @@ public class EquipoController {
     // Rama: feature/tu-nombre
     // ─────────────────────────────────────────────────────────────────
 
+    @GetMapping("/Yareth")
+    public String saludo() {
+        return "Hola, soy Yareth y este es mi endpoint.";
+    }
+
 }
