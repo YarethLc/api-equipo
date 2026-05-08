@@ -31,7 +31,7 @@ public class EquipoController {
 
     @GetMapping("/Marko")
     public String saludo() {
-        return "Hola, soy Marko y este es mi endpoint.";
+        return "Hola, soy Marko Arcila y este es mi endpoint.";
     }
 
     @GetMapping("/esteban")
