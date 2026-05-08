@@ -17,13 +17,19 @@ public class EquipoController {
 
     // ─────────────────────────────────────────────────────────────────
     // ZONA DE TRABAJO DEL EQUIPO
-    // Cada integrante del equipo agrega su método en esta sección.
-    // Rama: feature/tu-nombre
     // ─────────────────────────────────────────────────────────────────
+
+ feature/Stefany
+    @GetMapping("/Maria Stefany Izquierdo Palacios")
+    public String saludo() {
+        return "Hola, soy Stefany y este es mi endpoint.";
 
     @GetMapping("/Yareth")
     public String saludo() {
         return "Hola, soy Yareth y este es mi endpoint.";
+ develop
     }
 
 }
+
+
