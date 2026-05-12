@@ -15,9 +15,9 @@ public class EquipoController {
         return List.of("Equipo listo. Cada integrante agrega su endpoint abajo.");
     }
 
-    // ─────────────────────────────────────────────────────────────────
+    // ————————————————————————————————————————
     // ZONA DE TRABAJO DEL EQUIPO
-    // ─────────────────────────────────────────────────────────────────
+    // ————————————————————————————————————————
 
     @GetMapping("/stefany")
     public String saludoStefany() {
@@ -29,8 +29,8 @@ public class EquipoController {
         return "Hola, soy Yareth y este es mi endpoint.";
     }
 
-    @GetMapping("/Marko")
-    public String saludo() {
+    @GetMapping("/marko")
+    public String saludoMarko() {
         return "Hola, soy Marko Arcila y este es mi endpoint.";
     }
 
